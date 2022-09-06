@@ -1,0 +1,4 @@
+0 = unpaid
+1 = packed
+2 = on the way
+3 = complete
