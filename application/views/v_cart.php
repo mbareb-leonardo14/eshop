@@ -29,7 +29,7 @@
                      <th class="text-center">PRICE</th>
                      <th class="text-center">QUANTITY</th>
                      <th class="text-center">TOTAL</th>
-                     <th class="text-center"><i class="ti-trash remove-icon"></i></th>
+                     <th class="text-center"><a href="<?= base_url('cart/clear'); ?>"> <i class="ti-trash remove-icon"></i></a></th>
                   </tr>
                </thead>
                <?php echo form_open('cart/update'); ?>
