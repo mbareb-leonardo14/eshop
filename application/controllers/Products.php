@@ -3,7 +3,7 @@
 
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Home extends CI_Controller
+class Products extends CI_Controller
 {
 
    public function __construct()
@@ -17,13 +17,13 @@ class Home extends CI_Controller
    public function index()
    {
       $data = array(
-         'title'    => 'Home',
+         'title'    => 'Products',
          'stuff'    => $this->m_home->get_all_data(),
          'category' => $this->m_home->get_all_data_cat(),
          'brand' => $this->m_home->get_all_data_brand(),
-         'isi'      => 'v_home',
+         'isi'      => 'v_product',
       );
-      $this->load->view('layout/v_wrapper_frontend_home', $data, FALSE);
+      $this->load->view('layout/v_wrapper_frontend', $data, FALSE);
    }
 
    public function category($id_category)

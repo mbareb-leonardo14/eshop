@@ -51,18 +51,17 @@
                   <!-- Single Widget -->
                   <div class="contact">
                      <ul>
-                        <li>NO. 342 - London Oxford Street.</li>
-                        <li>012 United Kingdom.</li>
-                        <li>info@eshop.com</li>
-                        <li>+032 3456 7890</li>
+                        <li>Jl. Jend. Sudirman No.3, RT.01/RW.Dusun, 1, Wanurejo, Kec. Borobudur.</li>
+                        <li>Magelang, Jawa Tengah 56553.</li>
+                        <li>futuristicstore@gmail.com</li>
+                        <li>+62 823 34087504</li>
                      </ul>
                   </div>
                   <!-- End Single Widget -->
                   <ul>
                      <li><a href="#"><i class="ti-facebook"></i></a></li>
                      <li><a href="#"><i class="ti-twitter"></i></a></li>
-                     <li><a href="#"><i class="ti-flickr"></i></a></li>
-                     <li><a href="#"><i class="ti-instagram"></i></a></li>
+                     <li><a href="https://www.instagram.com/futuristicstore.clt/" target="_blank"><i class="ti-instagram"></i></a></li>
                   </ul>
                </div>
                <!-- End Single Widget -->
