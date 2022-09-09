@@ -19,7 +19,6 @@
                <div class="right-content">
                   <ul class="list-main">
                      <li><a href="https://goo.gl/maps/EJZ1DWBuh7cW5JXQA" target="_blank"><i class="ti-location-pin"></i> Store location</a></li>
-                     <li><i class="ti-alarm-clock"></i> <a href="#">Daily deal</a></li>
                      <li><i class="ti-user"></i> <a href="#">My account</a></li>
                      <?php if ($this->session->userdata('email') == "") { ?>
                      <li><i class="ti-power-off"></i><a href="<?= base_url('auth'); ?>">Login</a></li>
@@ -40,7 +39,7 @@
             <div class="col-lg-2 col-md-2 col-12">
                <!-- Logo -->
                <div class="logo">
-                  <a href="<?= base_url(''); ?>"><img src="<?= base_url('assets/img/logo/fs-logo.png'); ?>" alt=" logo" heigt="10"></a>
+                  <a href="<?= base_url(''); ?>"><img src="<?= base_url('assets/img/logo/fs-logo.png'); ?>" alt=" logo" height="10"></a>
                </div>
                <!--/ End Logo -->
                <!-- Search Form -->
@@ -82,7 +81,12 @@
                <div class="right-bar">
                   <!-- Search Form -->
                   <div class="sinlge-bar">
+                     <?php if ($this->session->userdata('email') == "") { ?>
                      <a href="#" class="single-icon"><i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
+                     <?php } else { ?>
+                     <img src="<?= base_url('assets/img/ava/' . $this->session->userdata('ava')); ?>" alt="user photo"
+                        class="brand-image img-circle img-size-5" height="2">
+                     <?php } ?>
                   </div>
 
                   <div class="sinlge-bar shopping">
@@ -152,8 +156,10 @@
                         <div class="navbar-collapse">
                            <div class="nav-inner">
                               <ul class="nav main-menu menu navbar-nav">
-                                 <li class="active"><a href="http://localhost/olshop/">Home</a></li>
-                                 <li><a href="<?= base_url('products') ?>">Product</a></li>
+                                 <li class=""><a href="<?= base_url(''); ?>">Home</a></li>
+                                 <li class="<?php if ($this->uri->segment(1) == 'products') {
+                                                echo "active";
+                                             } ?>""><a href=" <?= base_url('products') ?>">Product</a></li>
                                  <li><a href="#">Shop<i class="ti-angle-down"></i><span class="new">New</span></a>
                                     <ul class="dropdown">
                                        <li><a href="shop-grid.html">Shop Grid</a></li>

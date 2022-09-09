@@ -8,24 +8,29 @@
                <!-- Single Widget -->
                <div class="single-footer about">
                   <div class="logo">
-                     <a href="index.html"><img src="images/logo2.png" alt="#"></a>
+                     <!--<a href="index.html"><img src="" alt="#">-->
+                     <h5>FUTURISTIC HISTORY</h5>
+                     </a>
+
                   </div>
-                  <p class="text">Praesent dapibus, neque id cursus ucibus, tortor neque egestas augue, magna eros eu erat. Aliquam erat volutpat. Nam
-                     dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
-                  <p class="call">Got Question? Call us 24/7<span><a href="tel:123456789">+0123 456 789</a></span></p>
+                  <p class="text">FUTURISTICSTORE est 2018 opened our first door in Magelang, Central Java Indonesia. We provide the best
+                     international streetwear/urbanwear available in the market to satisfy our beloved customers. Our products are carefully curated
+                     and we only provide the best and guaranteed authentic.</p>
+                  <p class="call">Got Question? Call us 24/7<span><a href="tel:123456789">+ 62 8233 4057 504</a></span></p>
                </div>
                <!-- End Single Widget -->
             </div>
             <div class="col-lg-2 col-md-6 col-12">
                <!-- Single Widget -->
                <div class="single-footer links">
-                  <h4>Information</h4>
+                  <h4>etc.</h4>
                   <ul>
-                     <li><a href="#">About Us</a></li>
-                     <li><a href="#">Faq</a></li>
-                     <li><a href="#">Terms & Conditions</a></li>
+                     <li><a
+                           href="https://www.google.com/maps/place/FUTURISTIC+BOROBUDUR/@-7.6055504,110.2160294,17z/data=!3m1!4b1!4m5!3m4!1s0x2e7a8da544a8c047:0xae7864e00a109d7b!8m2!3d-7.6055557!4d110.2182234?hl=en-ID">Store
+                           Locations</a></li>
+                     <li><a href="#">Sizing Cart</a></li>
                      <li><a href="#">Contact Us</a></li>
-                     <li><a href="#">Help</a></li>
+                     <li><a href="https://shopee.co.id/futuristic.collective">Find Us at Shopee</a></li>
                   </ul>
                </div>
                <!-- End Single Widget -->

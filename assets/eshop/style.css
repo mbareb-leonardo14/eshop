@@ -4901,7 +4901,8 @@ Version:1.0
 	20. Start Footer CSS
 ===============================*/
 .footer {
-	background: #222;
+	/*background: #222;*/
+	background: #fff;
 }
 .footer .about {
 	padding-right: 50px;
@@ -4909,7 +4910,8 @@ Version:1.0
 .footer .single-footer h4 {
 	font-size: 17px;
 	font-weight: 600;
-	color: #fff;
+	/*color: #fff;*/
+	color: #000;
 	text-transform: capitalize;
 	margin-bottom: 30px;
 }
@@ -4919,11 +4921,13 @@ Version:1.0
 .footer .about .logo img {
 }
 .footer .about .text {
-	color: #fff;
+	/*color: #fff;*/
+	color: #000;
 	font-weight: 400;
 }
 .footer .about .call {
-	color: #fff;
+	/*color: #fff;*/
+	color: #000;
 	margin-top: 15px;
 	font-weight: 400;
 }
@@ -4945,7 +4949,8 @@ Version:1.0
 	margin-bottom: 0;
 }
 .footer .links ul li a {
-	color: #fff;
+	/*color: #fff;*/
+	color: #000;
 	font-weight: 400;
 }
 .footer .links ul li a:hover {
@@ -4959,7 +4964,8 @@ Version:1.0
 .footer .social .contact ul {
 }
 .footer .social .contact ul li {
-	color: #fff;
+	/*color: #fff;*/
+	color: #000;
 	display: block;
 	margin-bottom: 4px;
 	font-weight: 400;
@@ -4978,7 +4984,8 @@ Version:1.0
 	margin-right: 0;
 }
 .footer .social ul li a {
-	color: #fff;
+	/*color: #fff;*/
+	color: #000;
 	display: block;
 	font-size: 16px;
 }
@@ -4998,10 +5005,12 @@ Version:1.0
 	float: right;
 }
 .footer .copyright p {
-	color: #fff;
+	/*color: #fff;*/
+	color: #000;
 }
 .footer .copyright p a {
-	color: #fff;
+	/*color: #fff;*/
+	color: #000;
 	text-decoration: underline;
 }
 /*=============================

@@ -61,6 +61,18 @@ class Home extends CI_Controller
       );
       $this->load->view('layout/v_wrapper_frontend', $data, FALSE);
    }
+
+   public function contact()
+   {
+      //$stuff = $this->m_home->detail_product($id_stuff);
+      $data = array(
+         'title'    => 'Contact Us',
+         //'stuff'    => $this->m_home->detail_product($id_stuff),
+         //'pic'     => $this->m_pic->get_pic($id_stuff),
+         'isi'      => 'v_contact'
+      );
+      $this->load->view('layout/v_wrapper_frontend', $data, FALSE);
+   }
 }
 
 /* End of file Home.php */

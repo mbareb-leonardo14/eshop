@@ -19,7 +19,6 @@
                <div class="right-content">
                   <ul class="list-main">
                      <li><a href="https://goo.gl/maps/EJZ1DWBuh7cW5JXQA" target="_blank"><i class="ti-location-pin"></i> Store location</a></li>
-                     <li><i class="ti-alarm-clock"></i> <a href="#">Daily deal</a></li>
                      <li><i class="ti-user"></i> <a href="#">My account</a></li>
                      <?php if ($this->session->userdata('email') == "") { ?>
                      <li><i class="ti-power-off"></i><a href="<?= base_url('auth'); ?>">Login</a></li>

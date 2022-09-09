@@ -40,19 +40,19 @@ class Cart extends CI_Controller
          'price'   => $this->input->post('price'),
          'name'    => $this->input->post('name'),
          'size'    => $this->input->post('size'),
-         'color'    => $this->input->post('color')
+         'color'    => $this->input->post('color'),
 
 
-         // 'customer_id' => $this->session->userdata('customer_id'),
-         // 'id_stuff'      => $this->input->post('id'),
-         // 'name_stuff'    => $this->input->post('name'),
-         // 'qty'     => $this->input->post('qty'),
-         // 'price'   => $this->input->post('price'),
+         //'customer_id' => $this->session->userdata('customer_id'),
+         //'id_stuff'      => $this->input->post('id'),
+         //'name_stuff'    => $this->input->post('name'),
+         //'qty'     => $this->input->post('qty'),
+         //'price'   => $this->input->post('price'),
          // 'name'    => $this->input->post('name'),
       );
 
       $this->cart->insert($data);
-      // $this->m_cart->add($data);
+      //$this->m_cart->add($data);
 
       redirect($redirect_page, 'refresh');
    }
